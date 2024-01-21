@@ -12,4 +12,4 @@ SERVER START COMMAND AT THE ROOT DIRECTORY: `npm run start`
 
 ### DEPLOYMENT URL:
 
-``
+[Railway Deployment](https://ensolvers-challenge-production-5a0b.up.railway.app)
