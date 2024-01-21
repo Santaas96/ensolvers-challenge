@@ -4,7 +4,7 @@ import reactLogo from "../assets/react.svg";
 const Aside = ({setMenu}) => {
   return (
     <>
-      <aside className="md:w-[300px] md:border-r-2 border-[#646cff59] h-full">
+      <aside className="md:w-[300px] md:border-r-2 border-[#646cff59] md:h-full">
         <div className="flex items-center gap-3">
           <img src={reactLogo} className="logo react h-16" alt="React logo" />
           <h1 className="text-[22px]">Ensolvers NotePad</h1>
