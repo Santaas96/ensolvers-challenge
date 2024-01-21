@@ -34,7 +34,7 @@ const Notes = ({ info, categories, getNotes, isSelected }) => {
             </span>
           ) : null}
         </div>
-        <div className="flex gap-1 mt-1 mb-2">
+        <div className="flex gap-1 mt-1 mb-2 flex-wrap">
           {categories.map((c) => {
             return (
               <span
@@ -52,7 +52,7 @@ const Notes = ({ info, categories, getNotes, isSelected }) => {
           })}
         </div>
       </div>
-      <div className="flex flex-col gap-3 my-3 overflow-auto h-[83.5vh]">
+      <div className="flex flex-col gap-3 my-3 overflow-auto md:h-[73vh] xl:h-[75vh]">
         {info.map((i) => {
           return (
             <NoteCard

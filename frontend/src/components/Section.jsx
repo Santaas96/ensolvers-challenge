@@ -45,12 +45,12 @@ const Section = ({ menu }) => {
   }, [menu]);
 
   return (
-    <section className="flex-1 mx-8">
+    <section className="flex-1 md:mx-8 mt-10 md:mt-0">
       <Toaster position="bottom-center" richColors />
       <div className="w-full flex flex-col">
         <div className="flex justify-between">
           <div className="flex gap-2">
-            <h2 className="text-4xl pb-1">{menu.toUpperCase()}</h2>
+            <h2 className="text-3xl md:text-4xl pb-1">{menu.toUpperCase()}</h2>
             {categories ? (
               menu === "notes" ? (
                 <NoteForm
@@ -77,7 +77,7 @@ const Section = ({ menu }) => {
             ) : null}
           </div>
           {menu === "notes" ? (
-            <div>
+            <div className="flex items-center">
               <Checkbox
                 color="warning"
                 isSelected={isSelected}

@@ -66,7 +66,7 @@ const NoteCard = ({ info, categories, getNotes }) => {
   return (
     <>
       <div className="bg-white shadow-md rounded-lg py-2 px-3 flex flex-col w-full gap-1">
-        <div className="flex gap-1">
+        <div className="flex gap-1 flex-wrap">
           {info.categories?.map((cat) => (
             <span
               key={cat.id}

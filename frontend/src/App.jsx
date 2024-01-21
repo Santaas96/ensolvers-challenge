@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <div className="w-full h-full flex border-r-2 border-[#646cff59]">
+      <div className="w-full h-full flex md:flex-row flex-col md:border-r-2 border-[#646cff59]">
         <Aside setMenu={setMenu} />
         <Section menu={menu} />
       </div>
